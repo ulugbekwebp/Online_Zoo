@@ -1,0 +1,104 @@
+.pet-in-zoo {
+  margin-top: 70px;
+}
+
+.pet-in-zoo__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.pet-in-zoo__title {
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0;
+  line-height: 28.44px;
+}
+
+.pet-in-zoo__link {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: 10%;
+  border: 1px solid #19707D;
+  color: #19707D;
+  text-transform: uppercase;
+  padding: 14px 20px 14px 60px;
+  display: inline-block;
+  border-radius: 100px;
+  margin-left: auto;
+}
+
+.pet-in-zoo__list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pet-in-zoo__item{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.pet-in-zoo__item-link {
+  width: 480px;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 20px;
+}
+
+.pet-in-zoo__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.pet-in-zoo__item:nth-child(4n) {
+  margin-bottom: 0;
+}
+
+.pet-in-zoo__item:nth-child(5n) {
+  margin-bottom: 0;
+}
+
+.pet-in-zoo__item:nth-child(6n) {
+  margin-bottom: 0;
+}
+
+.pet-in-zoo__item-title {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #2D2D2D;
+  line-height: 28.13px;
+}
+
+.pet-in-zoo__country {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #909090;
+  margin: 0;
+  margin-top: 6px;
+}
+
+.pet-in-zoo__item-wrapper{
+  padding-left: 30px;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  border-top: 1px solid #E5EAEB;
+}
+
+.pet-in-zoo__img {
+  margin: 0 auto;
+  width: 229px;
+  height: 221px;
+  margin-bottom: 32px;
+}

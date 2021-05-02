@@ -1,0 +1,51 @@
+.hero {
+  background: url(../img/hero-bg.svg) no-repeat center;
+  // background-size: contain;
+  margin-top: -144px;
+  padding-top: 192px;
+  padding-bottom: 89px;
+}
+
+.hero__wrapper {
+  padding-top: 55px;
+}
+
+.hero__title {
+  font-family: "Rubik";
+  font-weight: 300;
+  margin: 0;
+  font-size: 72px;
+  line-height: 85.32px;
+  color: #F3F7F8;
+  font-style: normal;
+}
+
+.hero__title-span {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75.84px;
+}
+
+.hero__desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #F3F7F8;
+  width: 480px;
+  margin: 0;
+  margin: 27px 0 87px 0;
+}
+
+.hero__link {
+  border: 1px solid #fff;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: -5%;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+  border-radius: 100px;
+  padding: 14px 84px;
+  color: #0D444D;
+}

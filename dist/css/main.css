@@ -1,0 +1,353 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #F6F9FA; }
+
+a {
+  text-decoration: none; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+
+img {
+  max-width: 100%; }
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("../fonts/RobotoMono-Regular.woff2") format("woff2"), url("../fonts/RobotoMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"), url("../fonts/Rubik-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url("../fonts/RobotoMono-Medium.woff2") format("woff2"), url("../fonts/RobotoMono-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("../fonts/Rubik-Light.woff2") format("woff2"), url("../fonts/Rubik-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
+.container {
+  max-width: 1510px;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+.header__container {
+  display: flex;
+  align-items: center; }
+
+.hero__container {
+  display: flex; }
+
+.header {
+  padding: 13px 0;
+  background-color: #2A8086;
+  box-shadow: 0px 1px 10px rgba(18, 87, 91, 0.25); }
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex; }
+
+.header__item {
+  margin-right: 52px; }
+
+.header__item:last-child {
+  margin-right: 0; }
+
+.header__item-link {
+  color: #C5E1E5;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 18px; }
+
+.header__logo {
+  margin-right: 53px; }
+
+.header__search-icon {
+  margin-left: auto;
+  margin-right: 40px; }
+
+.header__authorization-list {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  color: #C5E1E5;
+  align-items: center; }
+
+.header__authorization-item {
+  margin-right: 38px; }
+
+.header__authorization-item:last-child {
+  margin-right: 0; }
+
+.sing-up {
+  border: 1px solid #C5E1E5;
+  border-radius: 100px;
+  padding: 15px 14px; }
+
+.hero {
+  background: url(../img/hero-bg.svg) no-repeat center;
+  margin-top: -144px;
+  padding-top: 192px;
+  padding-bottom: 89px; }
+
+.hero__wrapper {
+  padding-top: 55px; }
+
+.hero__title {
+  font-family: "Rubik";
+  font-weight: 300;
+  margin: 0;
+  font-size: 72px;
+  line-height: 85.32px;
+  color: #F3F7F8;
+  font-style: normal; }
+
+.hero__title-span {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75.84px; }
+
+.hero__desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #F3F7F8;
+  width: 480px;
+  margin: 0;
+  margin: 27px 0 87px 0; }
+
+.hero__link {
+  border: 1px solid #fff;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: -5%;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+  border-radius: 100px;
+  padding: 14px 84px;
+  color: #0D444D; }
+
+.how-it-works {
+  position: relative; }
+
+.how-it-works-wrapper {
+  margin-top: -67px; }
+
+.how-it-works__title {
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 400;
+  color: #0D444D;
+  text-transform: uppercase;
+  line-height: 24.88px;
+  margin: 0; }
+
+.how-it-works__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+
+.how-it-works__item {
+  width: 480px;
+  margin-right: 20px;
+  margin-top: 98px;
+  padding-top: 159px;
+  padding-bottom: 98px;
+  position: relative; }
+
+.how-it-works__item:last-child {
+  margin-right: 0; }
+
+.how-it-works__item-title {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+  color: #0D444D; }
+
+.how-it-works__item::before {
+  content: '';
+  width: 145px;
+  height: 145px;
+  background-color: #fff;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%); }
+
+.how-it-works__item-01::before {
+  background: url(../../img/online.svg) no-repeat center center; }
+
+.how-it-works__item-02::before {
+  background: url(../../img/communtity.svg) no-repeat center center; }
+
+.how-it-works__item-03::before {
+  background: url(../../img/animals.svg) no-repeat center center; }
+
+.panda {
+  background: url(../img/bg-panda.svg) no-repeat;
+  background-position: center;
+  padding-top: 523px; }
+
+.pet-in-zoo {
+  margin-top: 70px; }
+
+.pet-in-zoo__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 66px; }
+
+.pet-in-zoo__title {
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #0D444D;
+  margin: 0;
+  line-height: 28.44px; }
+
+.pet-in-zoo__link {
+  font-family: 'Roboto Mono';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: 10%;
+  border: 1px solid #19707D;
+  color: #19707D;
+  text-transform: uppercase;
+  padding: 14px 20px 14px 60px;
+  display: inline-block;
+  border-radius: 100px;
+  margin-left: auto; }
+
+.pet-in-zoo__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; }
+
+.pet-in-zoo__item {
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+.pet-in-zoo__item-link {
+  width: 480px;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 20px; }
+
+.pet-in-zoo__item:nth-child(3n) {
+  margin-right: 0; }
+
+.pet-in-zoo__item:nth-child(4n) {
+  margin-bottom: 0; }
+
+.pet-in-zoo__item:nth-child(5n) {
+  margin-bottom: 0; }
+
+.pet-in-zoo__item:nth-child(6n) {
+  margin-bottom: 0; }
+
+.pet-in-zoo__item-title {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #2D2D2D;
+  line-height: 28.13px; }
+
+.pet-in-zoo__country {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #909090;
+  margin: 0;
+  margin-top: 6px; }
+
+.pet-in-zoo__item-wrapper {
+  padding-left: 30px;
+  padding-top: 17px;
+  padding-bottom: 21px;
+  border-top: 1px solid #E5EAEB; }
+
+.pet-in-zoo__img {
+  margin: 0 auto;
+  width: 229px;
+  height: 221px;
+  margin-bottom: 32px; }
