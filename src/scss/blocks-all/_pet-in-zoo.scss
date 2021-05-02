@@ -1,5 +1,6 @@
 .pet-in-zoo {
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .pet-in-zoo__wrapper {
@@ -39,9 +40,52 @@
   flex-wrap: wrap;
 }
 
+.pet-in-zoo__list::after{
+  content: '';
+  width: 33px;
+  height: 66px;
+  position: absolute;
+  bottom: 0;
+  right: -59px;
+  background: url(../../img/Penguin.svg);
+}
+
+.pet-in-zoo__next-link{
+  content: '';
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  background: url(../../img/arrow-right.svg) no-repeat;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -68.5px;
+}
+
+.pet-in-zoo__old-link{
+  content: '';
+  width: 18px;
+  height: 24px;
+  position: absolute;
+  background: url(../../img/arrow-left.svg) no-repeat;
+  top: 60%;
+  transform: translateY(-50%);
+  right: -68.5px;
+}
+
 .pet-in-zoo__item{
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+.pet-in-zoo__item-wrapper::before{
+  content: '';
+  background: url(../../img/tv.svg);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
 }
 
 .pet-in-zoo__item-link {
@@ -90,6 +134,7 @@
 }
 
 .pet-in-zoo__item-wrapper{
+  position: relative;
   padding-left: 30px;
   padding-top: 17px;
   padding-bottom: 21px;

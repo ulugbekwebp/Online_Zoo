@@ -1,0 +1,111 @@
+.pay-and-feed{
+  background: url(../../img/pay-and-feed.svg) no-repeat center center;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+.pay-and-feed__wrapper{
+  display: flex;
+  align-items: center;
+  margin-bottom: 76px;
+}
+
+.pay-and-feed__title{
+  margin: 0;
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  color: $white;
+}
+
+.pay-and-feed__link{
+  background: $white;
+  border: 1px solid #C5E1E6;
+  box-shadow: (0px 2px 20px rgba(185, 213, 217, 0.6));
+  padding: 14px 78px;
+  border-radius: 100px;
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  color: #0D444D;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -5%;
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+.pay-and-feed__list{
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.pay-and-feed__item{
+  width: 480px;
+  margin-right: 20px;
+  align-items: center;
+  position: relative;
+  padding-top: 174px;
+  padding-bottom: 112px;
+}
+
+.pay-and-feed__item:last-child{
+  margin-right: 0;
+}
+
+.pay-and-feed__item-title{
+  text-align: center;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $white;
+}
+
+.pay-and-feed__item::before{
+  content: "";
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  box-shadow: 0px 2px 50px rgba(185, 213, 217, 0.6);
+}
+
+.pay-and-feed__list::after{
+  content: '';
+  position: absolute;
+  background: url(../../img/Arrows.svg) no-repeat;
+  width: 797px;
+  height: 52px;
+  left: 50%;
+  top: 54px;
+  transform: translateX(-50%);
+}
+
+.pay-and-feed__item-01::before{
+  content: '';
+  background: url(../../img/animals.svg) no-repeat center center, #fff;
+  position: absolute;
+}
+
+.pay-and-feed__item-02::before{
+  content: '';
+  background: url(../../img/food.svg) no-repeat center center, #fff;
+  position: absolute;
+}
+
+.pay-and-feed__item-03::before{
+  content: '';
+  background: url(../../img/monkey.svg) no-repeat center center, #fff;
+  position: absolute;
+}
