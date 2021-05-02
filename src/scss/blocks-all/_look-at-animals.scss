@@ -1,0 +1,52 @@
+.look-at-animals{
+  
+}
+
+.look-at-animals__title{
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: $black;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 50px
+}
+
+.look-at-animals__list{
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 101.7px;
+}
+
+.look-at-animals__item-link{
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+
+.look-at-animals__item{
+  width: 105px;
+  margin-right: 100px;
+}
+
+.look-at-animals__item:last-child{
+  margin-right: 0;
+}
+
+.look-at-animals__item-title{
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0;
+}
+
+.look-at-animals__img{
+  margin-bottom: 8.37px;
+  justify-content: center;
+}

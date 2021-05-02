@@ -99,6 +99,10 @@ img {
 .pet-in-zoo__container {
   position: relative; }
 
+.footer__container {
+  display: flex;
+  align-items: center; }
+
 .header {
   padding: 13px 0;
   background-color: #2A8086;
@@ -582,3 +586,88 @@ img {
   display: flex;
   align-items: center;
   padding-left: 19px; }
+
+.look-at-animals__title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #0D444D;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 50px; }
+
+.look-at-animals__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 101.7px; }
+
+.look-at-animals__item-link {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative; }
+
+.look-at-animals__item {
+  width: 105px;
+  margin-right: 100px; }
+
+.look-at-animals__item:last-child {
+  margin-right: 0; }
+
+.look-at-animals__item-title {
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  margin: 0; }
+
+.look-at-animals__img {
+  margin-bottom: 8.37px;
+  justify-content: center; }
+
+.footer {
+  background-color: #196469;
+  padding: 58.3px 0 57.7px; }
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex; }
+
+.footer__item {
+  margin-right: 52px; }
+
+.footer__item:last-child {
+  margin-right: 0; }
+
+.footer__item-link {
+  color: #C5E1E5;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 18px; }
+
+.footer__logo {
+  margin-right: 53px; }
+
+.footer__wrapper {
+  margin-left: auto; }
+
+.footer__design {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  text-align: end; }
+
+.footer__design-by {
+  margin-bottom: 10px; }

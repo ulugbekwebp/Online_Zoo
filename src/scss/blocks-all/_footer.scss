@@ -1,0 +1,47 @@
+.footer{
+  background-color: #196469;
+  padding: 58.3px 0 57.7px;
+}
+
+.footer__list{
+  @include reset-list;
+  text-transform: uppercase;
+  display: flex;
+}
+
+.footer__item{
+  margin-right: 52px;
+}
+
+.footer__item:last-child{
+  margin-right: 0;
+}
+
+.footer__item-link{
+  color: $white;
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer__logo{
+  margin-right: 53px;
+}
+
+.footer__wrapper{
+  margin-left: auto;
+}
+
+.footer__design{
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  text-align: end;
+}
+
+.footer__design-by{
+  margin-bottom: 10px;
+}
