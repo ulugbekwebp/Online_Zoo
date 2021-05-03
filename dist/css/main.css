@@ -121,11 +121,15 @@ img {
 .header__item:last-child {
   margin-right: 0; }
 
-.header__item-link {
+.header__item-btn {
   color: #C5E1E5;
   font-family: "Roboto Mono";
   font-weight: 500;
-  font-size: 18px; }
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  padding: 0; }
 
 .header__logo {
   margin-right: 53px; }
@@ -143,7 +147,15 @@ img {
   color: #C5E1E5;
   align-items: center; }
 
-.header__authorization-item {
+.header__authorization-item-btn {
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 21.09px;
+  border: none;
+  background-color: transparent;
+  color: #C5E1E5;
   margin-right: 38px; }
 
 .header__authorization-item:last-child {

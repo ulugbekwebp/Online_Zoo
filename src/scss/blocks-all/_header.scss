@@ -18,11 +18,15 @@
   margin-right: 0;
 }
 
-.header__item-link{
+.header__item-btn{
   color: $white;
   font-family: "Roboto Mono";
   font-weight: 500;
   font-size: 18px;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  padding: 0;
 }
 
 .header__logo{
@@ -42,7 +46,15 @@
   align-items: center;
 }
 
-.header__authorization-item{
+.header__authorization-item-btn{
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 21.09px;
+  border: none;
+  background-color: transparent;
+  color: $white;
   margin-right: 38px;
 }
 
