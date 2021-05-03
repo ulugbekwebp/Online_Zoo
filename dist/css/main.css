@@ -235,7 +235,40 @@ img {
 .hero__panda-video-active {
   display: block;
   border-radius: 5%;
-  border: 1px solid #C5E1E5; }
+  border: 1px solid #C5E1E5;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 50%;
+  -webkit-animation: panda;
+          animation: panda;
+  transform: translateX(-50%);
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s; }
+
+@-webkit-keyframes panda {
+  0% {
+    transform: scale(0); }
+  10% {
+    transform: scale(0.1); }
+  20% {
+    transform: scale(0.2); }
+  30% {
+    transform: scale(0.3); }
+  40% {
+    transform: scale(0.4); }
+  50% {
+    transform: scale(0.5); }
+  60% {
+    transform: scale(0.6); }
+  70% {
+    transform: scale(0.7); }
+  80% {
+    transform: scale(0.8); }
+  90% {
+    transform: scale(0.9); }
+  100% {
+    transform: scale(1); } }
 
 .hero__img-active {
   display: none; }
@@ -345,7 +378,8 @@ img {
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: relative; }
 
 .pet-in-zoo__list::after {
   content: '';
@@ -356,25 +390,21 @@ img {
   right: -59px;
   background: url(../../img/Penguin.svg); }
 
-.pet-in-zoo__next-link {
-  content: '';
-  width: 18px;
-  height: 24px;
+.pet-in-zoo__arrow {
   position: absolute;
-  background: url(../../img/arrow-right.svg) no-repeat;
-  top: 50%;
-  transform: translateY(-50%);
-  right: -68.5px; }
+  right: -68.5px;
+  top: 443.5px; }
 
-.pet-in-zoo__old-link {
-  content: '';
-  width: 18px;
-  height: 24px;
-  position: absolute;
-  background: url(../../img/arrow-left.svg) no-repeat;
-  top: 60%;
-  transform: translateY(-50%);
-  right: -68.5px; }
+.pet-in-zoo__next {
+  display: block;
+  margin-bottom: 31px;
+  border: none;
+  background-color: transparent; }
+
+.pet-in-zoo__old {
+  border: none;
+  background-color: transparent;
+  display: block; }
 
 .pet-in-zoo__item {
   margin-right: 20px;
@@ -461,7 +491,7 @@ img {
   text-transform: uppercase;
   color: #C5E1E5; }
 
-.pay-and-feed__link {
+.pay-and-feed__btn {
   background: #C5E1E5;
   border: 1px solid #C5E1E6;
   box-shadow: 0px 2px 20px rgba(185, 213, 217, 0.6);
@@ -559,7 +589,7 @@ img {
   text-transform: uppercase;
   color: #0D444D; }
 
-.testimonials__link {
+.testimonials__btn {
   margin: 0;
   font-family: "Roboto Mono";
   font-weight: 400;
@@ -571,7 +601,8 @@ img {
   margin-left: auto;
   border: 1px solid #19707D;
   border-radius: 100px;
-  padding: 14px 20px 14px 60px; }
+  padding: 14px 20px 14px 60px;
+  background-color: transparent; }
 
 .testimonials__list {
   margin: 0;

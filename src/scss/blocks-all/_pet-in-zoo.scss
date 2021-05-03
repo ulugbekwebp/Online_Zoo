@@ -38,6 +38,7 @@
   @include reset-list;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .pet-in-zoo__list::after{
@@ -50,26 +51,45 @@
   background: url(../../img/Penguin.svg);
 }
 
-.pet-in-zoo__next-link{
-  content: '';
-  width: 18px;
-  height: 24px;
+// .pet-in-zoo__next-link{
+//   content: '';
+//   width: 18px;
+//   height: 24px;
+//   position: absolute;
+//   background: url(../../img/arrow-right.svg) no-repeat;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   right: -68.5px;
+// }
+
+// .pet-in-zoo__old-link{
+//   content: '';
+//   width: 18px;
+//   height: 24px;
+//   position: absolute;
+//   background: url(../../img/arrow-left.svg) no-repeat;
+//   top: 60%;
+//   transform: translateY(-50%);
+//   right: -68.5px;
+// }
+
+.pet-in-zoo__arrow{
   position: absolute;
-  background: url(../../img/arrow-right.svg) no-repeat;
-  top: 50%;
-  transform: translateY(-50%);
   right: -68.5px;
+  top: 443.5px;
 }
 
-.pet-in-zoo__old-link{
-  content: '';
-  width: 18px;
-  height: 24px;
-  position: absolute;
-  background: url(../../img/arrow-left.svg) no-repeat;
-  top: 60%;
-  transform: translateY(-50%);
-  right: -68.5px;
+.pet-in-zoo__next{
+  display: block;
+  margin-bottom: 31px;
+  border: none;
+  background-color: transparent;
+}
+
+.pet-in-zoo__old{
+  border: none;
+  background-color: transparent;
+  display: block;
 }
 
 .pet-in-zoo__item{

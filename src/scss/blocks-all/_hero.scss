@@ -78,6 +78,72 @@
   display: block;
   border-radius: 5%;
   border: 1px solid $white;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 50%;
+  animation: panda;
+  transform: translateX(-50%);
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes panda{
+  0%{
+    transform: scale(0);
+    // left: 50%;
+    // transform: translateX(-50%);
+  }
+  10%{
+    transform: scale(0.1);
+    // left: 45%;
+    // transform: translateX(-50%);
+  }
+  20%{
+    transform: scale(0.2);
+    // left: 40%;
+    // transform: translateX(-50%);
+  }
+  30%{
+    transform: scale(0.3);
+    // left: 35%;
+    // transform: translateX(-50%);
+  }
+  40%{
+    transform: scale(0.4);
+    // left: 30%;
+    // transform: translateX(-50%);
+  }
+  50%{
+    transform: scale(0.5);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+  60%{
+    transform: scale(0.6);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+  70%{
+    transform: scale(0.7);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+  80%{
+    transform: scale(0.8);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+  90%{
+    transform: scale(0.9);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+  100%{
+    transform: scale(1);
+    // left: 25%;
+    // transform: translateX(-50%);
+  }
+ 
 }
 
 .hero__img-active{

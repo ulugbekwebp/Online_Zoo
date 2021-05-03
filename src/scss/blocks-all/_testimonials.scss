@@ -18,7 +18,7 @@
   color: $black;
 }
 
-.testimonials__link {
+.testimonials__btn {
   margin: 0;
   font-family: "Roboto Mono";
   font-weight: 400;
@@ -31,6 +31,7 @@
   border: 1px solid #19707D;
   border-radius: 100px;
   padding: 14px 20px 14px 60px;
+  background-color: transparent
 }
 
 .testimonials__list {
