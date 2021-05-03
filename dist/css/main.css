@@ -226,13 +226,16 @@ img {
   border: transparent;
   background-color: transparent;
   padding: 0;
-  width: 100%; }
+  width: 804px;
+  height: 666px; }
 
 .hero__panda-video {
   display: none; }
 
 .hero__panda-video-active {
-  display: block; }
+  display: block;
+  border-radius: 5%;
+  border: 1px solid #C5E1E5; }
 
 .hero__img-active {
   display: none; }

@@ -65,7 +65,9 @@
   border: transparent;
   background-color: transparent;
   padding: 0;
-  width: 100%;
+  // width: 100%;
+  width: 804px;
+  height: 666px;
 }
 
 .hero__panda-video{
@@ -74,6 +76,8 @@
 
 .hero__panda-video-active{
   display: block;
+  border-radius: 5%;
+  border: 1px solid $white;
 }
 
 .hero__img-active{
