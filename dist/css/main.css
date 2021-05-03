@@ -155,10 +155,21 @@ img {
   padding: 15px 14px; }
 
 .hero {
-  background: url(../img/hero-bg.svg) no-repeat center;
-  margin-top: -144px;
-  padding-top: 192px;
+  position: relative;
+  padding-top: 48px;
   padding-bottom: 89px; }
+
+.hero::before {
+  content: '';
+  position: absolute;
+  background: url(../img/hero-bg.svg) no-repeat center;
+  width: 2061px;
+  height: 803px;
+  z-index: -1;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 21px; }
 
 .hero__wrapper {
   padding-top: 55px; }
