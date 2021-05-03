@@ -1,24 +1,25 @@
-.header{
+.header {
   padding: 13px 0;
   background-color: #2A8086;
   box-shadow: (0px 1px 10px rgba(18, 87, 91, 0.25));
+  position: relative;
 }
 
-.header__list{
+.header__list {
   @include reset-list;
   text-transform: uppercase;
   display: flex;
 }
 
-.header__item{
+.header__item {
   margin-right: 52px;
 }
 
-.header__item:last-child{
+.header__item:last-child {
   margin-right: 0;
 }
 
-.header__item-btn{
+.header__item-btn {
   color: $white;
   font-family: "Roboto Mono";
   font-weight: 500;
@@ -29,16 +30,16 @@
   padding: 0;
 }
 
-.header__logo{
+.header__logo {
   margin-right: 53px;
 }
 
-.header__search-icon{
+.header__search-icon {
   margin-left: auto;
   margin-right: 40px;
 }
 
-.header__authorization-list{
+.header__authorization-list {
   text-transform: uppercase;
   @include reset-list;
   display: flex;
@@ -46,7 +47,7 @@
   align-items: center;
 }
 
-.header__authorization-item-btn{
+.header__authorization-item-btn {
   padding: 0;
   font-size: 18px;
   font-family: "Roboto";
@@ -58,12 +59,83 @@
   margin-right: 38px;
 }
 
-.header__authorization-item:last-child{
+.header__authorization-item:last-child {
   margin-right: 0;
 }
 
-.sing-up{
+.sing-up {
   border: 1px solid $white;
   border-radius: 100px;
   padding: 15px 14px;
 }
+
+.modal__contact-us {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 568px;
+  padding: 46px 60px 42px;
+  background-color: #fff;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+}
+
+.modal__contact-us-active{
+  display: block;
+}
+
+.modal__contact-us-title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: $black;
+}
+
+.modal__title {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: $black;
+  line-height: 16.41px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.modal__input {
+  width: 100%;
+  height: 54px;
+  font-size: 18px;
+  color: $black;
+  line-height: 16.41px;
+  font-weight: 400;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  border: none;
+}
+
+.modal__massage {
+  height: 264px;
+}
+
+.modal__input:focus {
+  outline: none;
+}
+
+.modal__send {
+  background: #2A8088;
+  box-shadow: 0px 2px 20px rgba(185, 213, 217, 0.6);
+  border-radius: 100px;
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: $white;
+  padding: 15px 199px 15px 200px;
+  margin-top: 12px;
+  border: none;
+}
+
