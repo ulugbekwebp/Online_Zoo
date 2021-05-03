@@ -60,3 +60,22 @@
   padding: 14px 84px;
   color: #0D444D;
 }
+
+.hero__video-btn{
+  border: transparent;
+  background-color: transparent;
+  padding: 0;
+  width: 100%;
+}
+
+.hero__panda-video{
+  display: none;
+}
+
+.hero__panda-video-active{
+  display: block;
+}
+
+.hero__img-active{
+  display: none;
+}
