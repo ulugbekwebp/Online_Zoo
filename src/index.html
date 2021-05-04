@@ -60,8 +60,22 @@
       </div>
 
       <div class="modal__login">
-
+        <h2 class="visually-hidden">login</h2>
+        <div class="modal__header">
+          <img src="./img/logo-mini.svg" alt="logo-mini">
+        </div>
+        <div class="modal__body">
+          <label class="modal__label">
+            <span class="modal__login-title">Create acccount</span>
+            <input class="visually-hidden" type="radio" name="login">
+          </label>
+          <label>
+            <span class="modal__login-title">Log in</span>
+            <input class="visually-hidden" type="radio" name="login">
+          </label>
+        </div>
       </div>
+
     </section>
   </header>
 
@@ -76,10 +90,12 @@
             animals, donate to your favorite ones.</p>
           <a class="hero__link" href="#">Watch now</a>
         </div>
-        <button class="hero__video-btn">
-          <img class="hero__img" src="./img/Panda.png" alt="Panda">
-          <iframe class="hero__panda-video" width="1280" height="720" src="https://www.youtube.com/embed/CLf3VYSKvb8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </button>
+        <div class="hero__video">
+          <button class="hero__video-btn">
+            <img class="hero__img" src="./img/Panda.png" alt="Panda">
+            <iframe class="hero__panda-video" width="1280" height="720" src="https://www.youtube.com/embed/CLf3VYSKvb8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </button>
+        </div>
       </div>
     </div>
 
@@ -174,8 +190,6 @@
             <img src="./img/arrow-left.svg" alt="">
           </button>
         </div>
-        <!-- <a class="pet-in-zoo__next-link" href="#"></a>
-        <a class="pet-in-zoo__old-link" href="#"></a> -->
       </div>
     </div>
 
@@ -184,7 +198,6 @@
         <div class="pay-and-feed__wrapper">
           <h2 class="pay-and-feed__title">Pay and feed</h2>
           <button class="pay-and-feed__btn" type="button">Donate to volunteers</button>
-          <!-- <a class="pay-and-feed__link" href="#">Donate to volunteers</a> -->
         </div>
         <ul class="pay-and-feed__list">
           <li class="pay-and-feed__item pay-and-feed__item-01">
@@ -257,31 +270,31 @@
           <li class="look-at-animals__item">
             <a class="look-at-animals__item-link" href="#">
               <h3 class="look-at-animals__item-title">Gorillas</h3>
-              <img class="look-at-animals__img" src="./img/animal-panda.png" alt="animal-panda">
+              <img class="look-at-animals__img" src="./img/animal-gorillas.png" alt="animal-gorillas">
             </a>
           </li>
           <li class="look-at-animals__item">
             <a class="look-at-animals__item-link" href="#">
               <h3 class="look-at-animals__item-title">Eagles</h3>
-              <img class="look-at-animals__img" src="./img/animal-panda.png" alt="animal-panda">
+              <img class="look-at-animals__img" src="./img/animal-eagles.png" alt="animal-eagles">
             </a>
           </li>
           <li class="look-at-animals__item">
             <a class="look-at-animals__item-link" href="#">
               <h3 class="look-at-animals__item-title">Aligators</h3>
-              <img class="look-at-animals__img" src="./img/animal-panda.png" alt="animal-panda">
+              <img class="look-at-animals__img" src="./img/animal-aligators.png" alt="animal-aligators">
             </a>
           </li>
           <li class="look-at-animals__item">
             <a class="look-at-animals__item-link" href="#">
               <h3 class="look-at-animals__item-title">elephants</h3>
-              <img class="look-at-animals__img" src="./img/animal-panda.png" alt="animal-panda">
+              <img class="look-at-animals__img" src="./img/animal-elephants.png" alt="animal-elephants">
             </a>
           </li>
           <li class="look-at-animals__item">
             <a class="look-at-animals__item-link" href="#">
               <h3 class="look-at-animals__item-title">LEMURS</h3>
-              <img class="look-at-animals__img" src="./img/animal-panda.png" alt="animal-panda">
+              <img class="look-at-animals__img" src="./img/animal-lemurs.png" alt="animal-lemurs">
             </a>
           </li>
           <li class="look-at-animals__item">
@@ -291,6 +304,8 @@
             </a>
           </li>
         </ul>
+
+
       </div>
     </div>
 

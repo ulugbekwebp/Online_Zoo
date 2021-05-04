@@ -20,6 +20,8 @@
 }
 
 .pet-in-zoo__link {
+  background: url(../../img/icon-heart.svg) no-repeat;
+  background-position: calc(50% - 115px) center;
   font-family: 'Roboto Mono';
   font-weight: 400;
   font-size: 18px;
@@ -50,28 +52,6 @@
   right: -59px;
   background: url(../../img/Penguin.svg);
 }
-
-// .pet-in-zoo__next-link{
-//   content: '';
-//   width: 18px;
-//   height: 24px;
-//   position: absolute;
-//   background: url(../../img/arrow-right.svg) no-repeat;
-//   top: 50%;
-//   transform: translateY(-50%);
-//   right: -68.5px;
-// }
-
-// .pet-in-zoo__old-link{
-//   content: '';
-//   width: 18px;
-//   height: 24px;
-//   position: absolute;
-//   background: url(../../img/arrow-left.svg) no-repeat;
-//   top: 60%;
-//   transform: translateY(-50%);
-//   right: -68.5px;
-// }
 
 .pet-in-zoo__arrow{
   position: absolute;
