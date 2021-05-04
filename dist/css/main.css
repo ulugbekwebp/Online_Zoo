@@ -235,20 +235,9 @@ img {
 .hero {
   position: relative;
   padding-top: 48px;
-  padding-bottom: 89px; }
-
-.hero::before {
-  content: '';
-  position: absolute;
-  background: url(../img/hero-bg.svg) no-repeat top center;
-  background-size: cover;
-  width: 2061px;
-  height: 803px;
-  z-index: -1;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-left: 21px; }
+  padding-bottom: 89px;
+  background: url(../img/hero-bg.svg) no-repeat top;
+  background-position: calc(50% + 21px) top; }
 
 .hero__wrapper {
   padding-top: 55px; }
