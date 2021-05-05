@@ -157,7 +157,7 @@
   border-radius: 20px 20px 0 0;
   padding: 32px 245px;
   background-color: #2A8086;
-  background-color: #fff;
+  // background-color: #fff;
 }
 
 .modal__body{
@@ -166,18 +166,42 @@
   border-radius: 0 0 20px 20px;
 }
 
+.modal__body-list{
+  @include reset-list;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.modal__item{
+  width: 50%;
+  text-align: center;
+  border-bottom: 2px solid $white;
+  padding-bottom: 20px;
+}
+
+.modal__item-active{
+  border-bottom: 2px solid #2A8086;
+}
+
 .modal__login-title{
   font-family: "Roboto";
   font-weight: 400;
   font-size: 18px;
+  text-transform: uppercase;
   line-height: 21.09px;
   color: $black;
-  border-bottom: 1px solid black;
-
-  &:checked{
-    border-bottom: 2px solid $black;
-  }
 }
 
-.modal__label{
+.modal__list{
+  @include reset-list;
+}
+
+.modal__login-item{
+  width: 50%;
+  align-items: center;
+}
+
+.modal__login-title-logo{
+  display: inline-block;
+  margin: 0;
 }
