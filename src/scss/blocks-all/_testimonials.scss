@@ -45,6 +45,7 @@
 .testimonials__item {
   width: 480px;
   margin-right: 20px;
+  // position: relative;
 }
 
 .testimonials__item:last-child {
@@ -72,10 +73,13 @@
 }
 
 .testimonials__comment-wrapper {
-  padding: 28px 45px 99px;  //81px
-  background: #fff;
+  padding: 28px 45px 81px;  //81px
+  background: #fff url(../../img/arrow-down.svg) no-repeat;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
+  margin-bottom: 25px;
+  // position: absolute;
+  // top: 100%;
 }
 
 .testimonials__img {
