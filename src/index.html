@@ -49,13 +49,13 @@
       <div class="modal__contact-us">
         <h2 class="modal__contact-us-title">Contact us</h2>
         <form method="post">
-         <h3 class="modal__title">NAME</h3>
-         <input class="modal__input" type="text">
-         <h3 class="modal__title">Email</h3>
-         <input class="modal__input" type="email">
-         <h3 class="modal__title">Your Message</h3>
-         <input class="modal__input modal__massage" type="text">
-         <button class="modal__send" type="button">send</button>
+          <h3 class="modal__title">NAME</h3>
+          <input class="modal__input" type="text">
+          <h3 class="modal__title">Email</h3>
+          <input class="modal__input" type="email">
+          <h3 class="modal__title">Your Message</h3>
+          <input class="modal__input modal__massage" type="text">
+          <button class="modal__send" type="button">send</button>
         </form>
       </div>
 
@@ -66,30 +66,21 @@
         </div>
         <div class="modal__body">
           <ul class="modal__body-list">
-          <li class="modal__item">
-              <label class="modal__label">
-                <span class="modal__login-title">Create acccount</span>
-                <input class="visually-hidden" type="radio" name="login">
-              </label>
+            <li class="modal__body-item modal__body-item-first">
+              <input class="visually-hidden modal__body-input" id="create" name="reg" type="radio">
+              <label class="modal__body-label" for="create">Create acccount</label>
             </li>
-            <li class="modal__item modal__item-active">
-              <label>
-                <span class="modal__login-title">Log in</span>
-                <input class="visually-hidden" type="radio" name="login">
-              </label>
+            <li class="modal__body-item modal__body-item-second modal__body-item-active">
+              <input class="visually-hidden modal__body-input" id="login" name="reg" type="radio">
+              <label class="modal__body-label modal__body-label-second" for="login">Log in</label>
             </li>
           </ul>
-          <ul class="modal__list">
-            <li class="modal__login-item">
-              <a href="#">
-                <img src="./img/google_logo.svg" alt="google-logo">
-                <h3 class="modal__login-title-logo">Google Login</h3>
-              </a>
-            </li>
-            <li class="modal__login-item">
 
-            </li>
-          </ul>
+          <div>
+            <button class="modal__login-button modal__google" type="button">Google Login</button>
+            <button class="modal__login-button modal__facebook" type="button">Facebook Login</button>
+          </div>
+
         </div>
       </div>
 
@@ -110,7 +101,10 @@
         <div class="hero__video">
           <button class="hero__video-btn">
             <img class="hero__img" src="./img/Panda.png" alt="Panda">
-            <iframe class="hero__panda-video" width="1280" height="720" src="https://www.youtube.com/embed/CLf3VYSKvb8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- <iframe class="hero__panda-video" width="1280" height="720" src="https://www.youtube.com/embed/CLf3VYSKvb8"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe> -->
           </button>
         </div>
       </div>
