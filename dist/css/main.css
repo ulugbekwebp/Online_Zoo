@@ -165,7 +165,8 @@ img {
 .sing-up {
   border: 1px solid #C5E1E5;
   border-radius: 100px;
-  padding: 15px 14px; }
+  padding: 15px 14px;
+  margin-right: 0; }
 
 .modal__contact-us {
   display: none;
@@ -242,6 +243,19 @@ img {
   border-radius: 20px;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
   display: none; }
+
+.modal__signup {
+  top: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 568px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  display: none; }
+
+.modal__signup-active {
+  display: block; }
 
 .modal__login-active {
   display: block; }
@@ -328,6 +342,17 @@ img {
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   border: none; }
+
+.modal__login_check {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: #2D2D2D;
+  line-height: 18.75px; }
+
+.modal__login-span {
+  text-decoration: underline;
+  color: #2D2D2D; }
 
 .hero {
   position: relative;
@@ -785,8 +810,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.41px;
-  color: #B2B2B2;
-  margin-bottom: 9px; }
+  color: #B2B2B2; }
 
 .testimonials__comment {
   margin: 0;
@@ -795,14 +819,25 @@ img {
   font-style: italic;
   font-size: 16px;
   line-height: 18.75px;
-  color: #2D2D2D; }
+  color: #2D2D2D;
+  margin-top: 9px; }
 
 .testimonials__comment-wrapper {
+  position: relative;
   padding: 28px 45px 81px;
-  background: #fff url(../../img/arrow-down.svg) no-repeat;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   margin-bottom: 25px; }
+
+.testimonials__comment-wrapper::before {
+  content: "";
+  position: absolute;
+  background: url(../../img/arrow-down.png) no-repeat;
+  background-size: contain;
+  width: 39.5px;
+  top: 100%;
+  left: 70px;
+  height: 18px; }
 
 .testimonials__img {
   padding-right: 16px; }

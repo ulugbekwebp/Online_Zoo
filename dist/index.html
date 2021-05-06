@@ -94,6 +94,45 @@
         </div>
       </div>
 
+      <div class="modal__signup">
+        <h2 class="visually-hidden">login</h2>
+        <div class="modal__header">
+          <img src="./img/logo-mini.svg" alt="logo-mini">
+        </div>
+        <div class="modal__body">
+          <ul class="modal__body-list">
+            <li class="modal__body-item modal__body-item-first modal__body-item-active">
+              <input class="visually-hidden modal__body-input" id="create" name="reg" type="radio">
+              <label class="modal__body-label" for="create">Create acccount</label>
+            </li>
+            <li class="modal__body-item modal__body-item-second">
+              <input class="visually-hidden modal__body-input" id="login" name="reg" type="radio">
+              <label class="modal__body-label modal__body-label-second" for="login">Log in</label>
+            </li>
+          </ul>
+
+          <div>
+            <button class="modal__login-button modal__google" type="button">Google Login</button>
+            <button class="modal__login-button modal__facebook" type="button">Facebook Login</button>
+          </div>
+
+          <div>
+            <form method="POST">
+              <h3 class="modal__login-title">Name</h3>
+              <input class="modal__login-input" type="text">
+              <h3 class="modal__login-title">Email</h3>
+              <input class="modal__login-input" type="email">
+              <h3 class="modal__login-title">Password</h3>
+              <input class="modal__login-input" type="password">
+              <input id="check" type="checkbox">
+              <label class="modal__login_check" for="check">Agree with the <a href="#" class="modal__login-span">User Agreement</a> and <a href="#" class="modal__login-span">Privacy Policy</a></label>
+              <button class="modal__send" type="button">send</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
     </section>
   </header>
 
