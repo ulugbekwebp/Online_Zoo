@@ -664,7 +664,8 @@ img {
 .pay-and-feed__wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 76px; }
+  margin-bottom: 76px;
+  position: relative; }
 
 .pay-and-feed__title {
   margin: 0;
@@ -755,6 +756,63 @@ img {
   content: '';
   background: url(../../img/monkey.svg) no-repeat center center, #fff;
   position: absolute; }
+
+.modal__pay {
+  width: 568px;
+  padding: 46px 60px 60px 47px;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  z-index: 1; }
+
+.modal__pay-title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #0D444D;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 28px; }
+
+.modal__pay-desc {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-bottom: 32px; }
+
+.modal__input-title {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #0D444D;
+  text-transform: uppercase; }
+
+.modal__input-payment {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #19707D; }
+
+.modal__wrapper_in {
+  display: flex;
+  text-align: center;
+  border: 1px solid #19707D;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 10px; }
+
+.modal__input-wrapper {
+  width: 50%;
+  padding-top: 18px;
+  padding-bottom: 18px; }
 
 .testimonials {
   margin-bottom: 100px; }
