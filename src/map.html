@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+  <header>
+    <section class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="index.html">
+          <img src="./img/logo-zoo.svg" alt="logo-zoo">
+        </a>
+        <ul class="header__list">
+          <li class="header__item">
+            <button onclick="document.location='index.html'" class="header__item-btn" type="button">about</button>
+          </li>
+          <li class="header__item">
+            <button onclick="document.location='map.html'" class="header__item-btn header__item-btn-active"
+              type="button">MAP</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn" type="button">Zoos</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn header__item-btn-contact-us" type="button">contact us</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn" type="button">design</button>
+          </li>
+        </ul>
+        <img class="header__search-icon" src="./img/search-icon.svg" alt="search-icon">
+        <ul class="header__authorization-list">
+          <li class="header__authorization-item">
+            <button class="header__authorization-item-btn" type="button">Log in</button>
+          </li>
+          <li class="header__authorization-item">
+            <button class="header__authorization-item-btn sing-up" type="button">Sign up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="modal__contact-us">
+        <h2 class="modal__contact-us-title">Contact us</h2>
+        <form method="post">
+          <h3 class="modal__title">NAME</h3>
+          <input class="modal__input" type="text">
+          <h3 class="modal__title">Email</h3>
+          <input class="modal__input" type="email">
+          <h3 class="modal__title">Your Message</h3>
+          <input class="modal__input modal__massage" type="text">
+          <button class="modal__send" type="button">send</button>
+        </form>
+      </div>
+
+      <div class="modal__login">
+        <h2 class="visually-hidden">login</h2>
+        <div class="modal__header">
+          <img src="./img/logo-mini.svg" alt="logo-mini">
+        </div>
+        <div class="modal__body">
+          <ul class="modal__body-list">
+            <li class="modal__body-item modal__body-item-first">
+              <input class="visually-hidden modal__body-input" id="create" name="reg" type="radio">
+              <label class="modal__body-label" for="create">Create acccount</label>
+            </li>
+            <li class="modal__body-item modal__body-item-second modal__body-item-active">
+              <input class="visually-hidden modal__body-input" id="login" name="reg" type="radio">
+              <label class="modal__body-label modal__body-label-second" for="login">Log in</label>
+            </li>
+          </ul>
+
+          <div>
+            <button class="modal__login-button modal__google" type="button">Google Login</button>
+            <button class="modal__login-button modal__facebook" type="button">Facebook Login</button>
+          </div>
+
+          <div>
+            <form method="POST">
+              <h3 class="modal__login-title">Email</h3>
+              <input class="modal__login-input" type="email">
+              <h3 class="modal__login-title">Password</h3>
+              <input class="modal__login-input" type="password">
+              <button class="modal__send" type="button">send</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal__signup">
+        <h2 class="visually-hidden">login</h2>
+        <div class="modal__header">
+          <img src="./img/logo-mini.svg" alt="logo-mini">
+        </div>
+        <div class="modal__body">
+          <ul class="modal__body-list">
+            <li class="modal__body-item modal__body-item-first modal__body-item-active">
+              <input class="visually-hidden modal__body-input" id="create" name="reg" type="radio">
+              <label class="modal__body-label" for="create">Create acccount</label>
+            </li>
+            <li class="modal__body-item modal__body-item-second">
+              <input class="visually-hidden modal__body-input" id="login" name="reg" type="radio">
+              <label class="modal__body-label modal__body-label-second" for="login">Log in</label>
+            </li>
+          </ul>
+
+          <div>
+            <button class="modal__login-button modal__google" type="button">Google Login</button>
+            <button class="modal__login-button modal__facebook" type="button">Facebook Login</button>
+          </div>
+
+          <div>
+            <form method="POST">
+              <h3 class="modal__login-title">Name</h3>
+              <input class="modal__login-input" type="text">
+              <h3 class="modal__login-title">Email</h3>
+              <input class="modal__login-input" type="email">
+              <h3 class="modal__login-title">Password</h3>
+              <input class="modal__login-input" type="password">
+              <input id="check" type="checkbox">
+              <label class="modal__login_check" for="check">Agree with the <a href="#" class="modal__login-span">User
+                  Agreement</a> and <a href="#" class="modal__login-span">Privacy Policy</a></label>
+              <button class="modal__send" type="button">send</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">Map</h1>
+    <section class="map">
+      <div class="container">
+        <h2 class="map__title">Choose your favorite Animal</h2>
+        <div class="map__maps">
+          <button class="map__btn map__eagle" type="button">
+            <img src="./img/map_eagle.png" alt="map_eagle">
+          </button>
+          <button class="map__btn map_aligator" type="button">
+            <img src="./img/map_aligator.png" alt="map_aligator">
+          </button>
+          <button class="map__btn map_gorillas" type="button">
+            <img src="./img/map_gorillas.png" alt="map_gorillas">
+          </button>
+          <button class="map__btn map_panda" type="button">
+            <img src="./img/map_panda.png" alt="map_panda">
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer__container container">
+        <img class="footer__logo" src="./img/logo-zoo.svg" alt="logo-zoo">
+        <ul class="header__list">
+          <li class="header__item">
+            <button class="header__item-btn" type="button">about</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn" type="button">MAP</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn" type="button">Zoos</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn header__item-btn-contact-us" type="button">contact us</button>
+          </li>
+          <li class="header__item">
+            <button class="header__item-btn" type="button">design</button>
+          </li>
+        </ul>
+        <div class="footer__wrapper">
+          <p class="footer__design footer__design-by">Design by Lemeshko Kateryna</p>
+          <p class="footer__design">©RSSchool and ©Yem Digital 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

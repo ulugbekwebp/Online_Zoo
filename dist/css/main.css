@@ -132,6 +132,9 @@ img {
   text-transform: uppercase;
   padding: 0; }
 
+.header__item-btn-active {
+  border-bottom: 2px solid #C5E1E5; }
+
 .header__logo {
   margin-right: 53px; }
 
@@ -766,7 +769,11 @@ img {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 20px;
-  z-index: 1; }
+  z-index: 1;
+  display: none; }
+
+.modal__pay-active {
+  display: block; }
 
 .modal__pay-title {
   font-family: "Rubik";
@@ -810,7 +817,9 @@ img {
   border-radius: 10px; }
 
 .modal__input-wrapper {
-  width: 50%;
+  width: 50%; }
+
+.modal__input-monthly {
   padding-top: 18px;
   padding-bottom: 18px; }
 
@@ -882,6 +891,7 @@ img {
 
 .testimonials__comment-wrapper {
   position: relative;
+  margin: 0;
   padding: 28px 45px 81px;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
@@ -912,7 +922,14 @@ img {
 .testimonials__person-wrapper {
   display: flex;
   align-items: center;
-  padding-left: 19px; }
+  padding-left: 19px;
+  margin: 0;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #000; }
 
 .look-at-animals__title {
   font-family: "Rubik";
@@ -999,3 +1016,66 @@ img {
 
 .footer__design-by {
   margin-bottom: 10px; }
+
+.map {
+  background-color: #2A8086;
+  padding: 26px 0 16.48px 0; }
+
+.map__title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  color: #C5E1E5;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 54.73px; }
+
+.map__maps {
+  background: url(../../img/Map.png) no-repeat;
+  width: 1419.22px;
+  height: 916.25px;
+  position: relative; }
+
+.map__maps::after {
+  content: '';
+  position: absolute;
+  width: 32.52px;
+  height: 32.52px;
+  background: rgba(255, 255, 255, 0.4) url(../../img/-.svg) no-repeat center;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  top: 873.27px;
+  left: 1450.96px; }
+
+.map__maps::before {
+  content: '';
+  position: absolute;
+  width: 32.52px;
+  height: 32.52px;
+  background: rgba(255, 255, 255, 0.4) url(../../img/+.svg) no-repeat center;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  top: 873.27px;
+  left: 1400px; }
+
+.map__btn {
+  position: absolute;
+  border: none;
+  background-color: transparent; }
+
+.map__eagle {
+  left: 169.31px;
+  top: 364.27px; }
+
+.map_aligator {
+  left: 325.31px;
+  top: 434.27px; }
+
+.map_gorillas {
+  top: 534.27px;
+  left: 686.31px; }
+
+.map_panda {
+  left: 1032.31px;
+  top: 399.27px; }

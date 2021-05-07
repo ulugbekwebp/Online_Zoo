@@ -11,6 +11,8 @@ var header__authorization_item_btn = document.querySelector(".header__authorizat
 var modal__login = document.querySelector(".modal__login");
 var modal__singup = document.querySelector(".sing-up");
 var modal__sign_up = document.querySelector(".modal__signup");
+var pay_and_feed__btn = document.querySelector(".pay-and-feed__btn");
+var modal__pay = document.querySelector(".modal__pay");
 
 panda.addEventListener("click", function(){
   panda_video.classList.toggle('hero__panda-video-active');
@@ -21,6 +23,7 @@ header__item_btn_contact_us.addEventListener("click", function(){
   modal__contact_us.classList.toggle("modal__contact-us-active");
   modal__login.classList.remove("modal__login-active");
   modal__sign_up.classList.remove("modal__login-active");
+  modal__pay.classList.remove("modal__pay-active");
 })
 
 modal__body_label.addEventListener("click", function(){
@@ -38,11 +41,19 @@ header__authorization_item_btn.addEventListener("click", function(){
   modal__login.classList.toggle("modal__login-active");
   modal__contact_us.classList.remove("modal__contact-us-active");
   modal__sign_up.classList.remove("modal__login-active");
+  modal__pay.classList.remove("modal__pay-active");
 })
 
 modal__singup.addEventListener("click", function(){
   modal__sign_up.classList.toggle("modal__login-active");
   modal__contact_us.classList.remove("modal__contact-us-active");
   modal__login.classList.remove("modal__login-active");
+  modal__pay.classList.remove("modal__pay-active");
 })
 
+pay_and_feed__btn.addEventListener("click", function(){
+  modal__pay.classList.toggle("modal__pay-active");
+  modal__contact_us.classList.remove("modal__contact-us-active");
+  modal__login.classList.remove("modal__login-active");
+  modal__sign_up.classList.remove("modal__login-active");
+})

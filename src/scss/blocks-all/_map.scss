@@ -1,0 +1,72 @@
+.map {
+  background-color: #2A8086;
+  padding: 26px 0 16.48px 0;
+}
+
+.map__title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  color: $white;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 54.73px;
+}
+
+.map__maps {
+  background: url(../../img/Map.png) no-repeat;
+  width: 1419.22px;
+  height: 916.25px;
+  position: relative;
+}
+
+.map__maps::after {
+  content: '';
+  position: absolute;
+  width: 32.52px;
+  height: 32.52px;
+  background: rgba(255, 255, 255, 0.4) url(../../img/-.svg) no-repeat center;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  top: 873.27px;
+  left: 1450.96px;
+}
+
+.map__maps::before {
+  content: '';
+  position: absolute;
+  width: 32.52px;
+  height: 32.52px;
+  background: rgba(255, 255, 255, 0.4) url(../../img/+.svg) no-repeat center;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+  top: 873.27px;
+  left: 1400px;
+}
+
+.map__btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+}
+
+.map__eagle {
+  left: 169.31px;
+  top: 364.27px;
+}
+
+.map_aligator {
+  left: 325.31px;
+  top: 434.27px;
+}
+
+.map_gorillas {
+  top: 534.27px;
+  left: 686.31px;
+}
+
+.map_panda {
+  left: 1032.31px;
+  top: 399.27px;
+}

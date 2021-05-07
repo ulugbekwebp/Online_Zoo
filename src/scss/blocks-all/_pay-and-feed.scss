@@ -121,6 +121,11 @@
   transform: translateX(-50%);
   border-radius: 20px;
   z-index: 1;
+  display: none;
+}
+
+.modal__pay-active{
+  display: block;
 }
 
 .modal__pay-title {
@@ -171,7 +176,12 @@
 
 .modal__input-wrapper {
   width: 50%;
+  // background-color: #ccc;
+  // border: 1px solid black;
+}
+
+.modal__input-monthly{
   padding-top: 18px;
   padding-bottom: 18px;
-  // border: 1px solid black;
+
 }
