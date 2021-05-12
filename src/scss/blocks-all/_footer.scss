@@ -3,6 +3,10 @@
   padding: 58.3px 0 57.7px;
 }
 
+.footer-error{
+  margin-top: -91px
+}
+
 .footer__list{
   @include reset-list;
   text-transform: uppercase;
