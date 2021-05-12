@@ -1,0 +1,43 @@
+
+
+.error__title{
+  font-family: "Sahitya";
+  font-weight: normal;
+  font-size: 250px;
+  line-height: 388.25px;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.error__desc{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18.75px;
+  color: $black;
+  text-align: center;
+  margin: 0;
+  margin-top: -41px;
+}
+
+.error__wrapper{
+  margin-top: 36px;
+  text-align: center;
+}
+
+.error__backhome{
+  font-family: "Roboto Mono";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: -5%;
+  border: 1px solid transparent;
+  padding: 14px 78px;
+  display: inline-block;
+  background-color: #19707D;
+  border-radius: 100px;
+  color: #F3F7F8;
+}

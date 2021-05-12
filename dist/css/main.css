@@ -71,6 +71,13 @@ img {
   font-style: normal;
   font-display: swap; }
 
+@font-face {
+  font-family: 'Sahitya';
+  src: url("../fonts/Sahitya-Regular.woff2") format("woff2"), url("../fonts/Sahitya-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
@@ -980,6 +987,9 @@ img {
   background-color: #196469;
   padding: 58.3px 0 57.7px; }
 
+.footer-error {
+  margin-top: -91px; }
+
 .footer__list {
   margin: 0;
   padding: 0;
@@ -1079,3 +1089,47 @@ img {
 .map_panda {
   left: 1032.31px;
   top: 399.27px; }
+
+.error__title {
+  font-family: "Sahitya";
+  font-weight: normal;
+  font-size: 250px;
+  line-height: 388.25px;
+  text-transform: uppercase;
+  color: #0D444D;
+  margin: 0;
+  text-align: center;
+  margin-top: -20px; }
+
+.error__desc {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18.75px;
+  color: #0D444D;
+  text-align: center;
+  margin: 0;
+  margin-top: -41px; }
+
+.error__wrapper {
+  margin-top: 36px;
+  text-align: center; }
+
+.error__backhome {
+  font-family: "Roboto Mono";
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23.74px;
+  letter-spacing: -5%;
+  border: 1px solid transparent;
+  padding: 14px 78px;
+  display: inline-block;
+  background-color: #19707D;
+  border-radius: 100px;
+  color: #F3F7F8; }
+
+.error-bg {
+  margin-top: 61px;
+  background: url(../../img/404-bg.png) no-repeat center center;
+  background-position: calc(50% + 45px);
+  padding-top: 515px; }
