@@ -284,3 +284,35 @@
   text-decoration: underline;
   color: #2D2D2D;
 }
+
+.header__left-list{
+  position: absolute;
+  top: 100%;
+  @include reset-list;
+  background-color: antiquewhite;
+}
+
+.header__left-item{
+  width: 105px;
+  text-align: center;
+}
+
+.header__left-title{
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.46px;
+  color: #2D2D2D;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.header__left-link{
+  margin: 0;
+}
+
+.header__left-img{
+  margin-top: 53px;
+  margin-bottom: 8.67px;
+}

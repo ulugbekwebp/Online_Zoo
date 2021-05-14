@@ -110,6 +110,11 @@ img {
   display: flex;
   align-items: center; }
 
+.conatiner-zoos {
+  max-width: 1355px;
+  padding: 0 15px;
+  margin-left: auto; }
+
 .header {
   padding: 13px 0;
   background-color: #2A8086;
@@ -363,6 +368,35 @@ img {
 .modal__login-span {
   text-decoration: underline;
   color: #2D2D2D; }
+
+.header__left-list {
+  position: absolute;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: antiquewhite; }
+
+.header__left-item {
+  width: 105px;
+  text-align: center; }
+
+.header__left-title {
+  font-family: "Roboto Mono";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.46px;
+  color: #2D2D2D;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase; }
+
+.header__left-link {
+  margin: 0; }
+
+.header__left-img {
+  margin-top: 53px;
+  margin-bottom: 8.67px; }
 
 .hero {
   position: relative;
@@ -1047,25 +1081,21 @@ img {
   height: 916.25px;
   position: relative; }
 
-.map__maps::after {
-  content: '';
-  position: absolute;
-  width: 32.52px;
-  height: 32.52px;
-  background: rgba(255, 255, 255, 0.4) url(../../img/-.svg) no-repeat center;
+.map__button {
   border: 1.5px solid #fff;
   border-radius: 50%;
-  top: 873.27px;
-  left: 1450.96px; }
+  width: 32.52px;
+  height: 32.52px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4); }
 
-.map__maps::before {
-  content: '';
-  position: absolute;
-  width: 32.52px;
-  height: 32.52px;
-  background: rgba(255, 255, 255, 0.4) url(../../img/+.svg) no-repeat center;
-  border: 1.5px solid #fff;
-  border-radius: 50%;
+.map--button {
+  left: 45px; }
+
+.map__wrapper {
+  position: relative;
   top: 873.27px;
   left: 1400px; }
 
@@ -1077,18 +1107,26 @@ img {
 .map__eagle {
   left: 169.31px;
   top: 364.27px; }
+  .map__eagle:hover {
+    transform: scale(1.1); }
 
 .map_aligator {
   left: 325.31px;
   top: 434.27px; }
+  .map_aligator:hover {
+    transform: scale(1.1); }
 
 .map_gorillas {
   top: 534.27px;
   left: 686.31px; }
+  .map_gorillas:hover {
+    transform: scale(1.1); }
 
 .map_panda {
   left: 1032.31px;
   top: 399.27px; }
+  .map_panda:hover {
+    transform: scale(1.1); }
 
 .error__title {
   font-family: "Sahitya";
@@ -1133,3 +1171,117 @@ img {
   background: url(../../img/404-bg.png) no-repeat center center;
   background-position: calc(50% + 45px);
   padding-top: 515px; }
+
+.panda-zoos {
+  margin-top: 50px; }
+
+.panda-zoos__title {
+  margin: 0;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  color: #0D444D;
+  margin-bottom: 42px; }
+
+.panda-zoos__title-mini {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #0D444D;
+  margin: 0;
+  margin-bottom: 8px; }
+
+.panda-zoos__ytb {
+  border-radius: 19.5469px; }
+
+.panda-zoos__main-cameras {
+  margin-bottom: 56px; }
+
+.panda-zoos__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex; }
+
+.panda-zoos__side-cameras {
+  position: relative;
+  margin-bottom: 60px; }
+
+.panda-zoos__item {
+  margin-right: 32px; }
+
+.panda-zoos__item:last-child {
+  margin-right: 0; }
+
+.panda-zoos__side-ytb {
+  border-radius: 7.4583px; }
+
+.panda-zoos__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px; }
+
+.panda-zoos__arrow-btn {
+  display: block;
+  align-items: center;
+  margin-bottom: 31px;
+  border: none;
+  background-color: transparent; }
+
+.panda-zoos__arrow-btn-left {
+  margin-bottom: 0; }
+
+.panda-zoos__information-list {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.panda-zoos__information-item {
+  width: 50%; }
+
+.panda-zoos__information-title {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  color: #0D444D;
+  margin: 0;
+  margin-bottom: 24px; }
+
+.panda-zoos_information-title-mini {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D444D;
+  margin: 0;
+  margin-bottom: 8px; }
+
+.panda-zoos_information-desc {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D444D;
+  margin: 0;
+  margin-bottom: 36px; }
+
+.panda-zoos__right-desc {
+  margin: 0;
+  padding-left: 23px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #0D444D;
+  margin-bottom: 36px; }
+
+.panda-zoos__right-desc::before {
+  content: "";
+  position: absolute;
+  background: url(../../img/zoos-dont-know.svg) no-repeat; }

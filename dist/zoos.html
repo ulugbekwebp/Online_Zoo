@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404</title>
+  <title>Zoos</title>
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 
@@ -25,7 +25,7 @@
             <a class="header__item-btn" href="./map.html">Map</a>
           </li>
           <li class="header__item">
-            <a class="header__item-btn" href="#">Zoos</a>
+            <a class="header__item-btn header__item-btn-active" href="./zoos.html">Zoos</a>
           </li>
           <li class="header__item">
             <button class="header__item-btn header__item-btn-contact-us" type="button">contact us</button>
@@ -41,6 +41,33 @@
           </li>
           <li class="header__authorization-item">
             <button class="header__authorization-item-btn sing-up" type="button">Sign up</button>
+          </li>
+        </ul>
+
+        <ul class="header__left-list">
+          <li class="header__left-item">
+            <a class="header__left-link" href="#">
+              <img class="header__left-img" src="./img/zoos-panda.png" alt="zoos-panda">
+              <h2 class="header__left-title">Pandas</h2>
+            </a>
+          </li>
+          <li class="header__left-item">
+            <a class="header__left-link" href="#">
+              <img class="header__left-img" src="./img/zoos-eagle.png" alt="zoos-eagle">
+              <h2 class="header__left-title">Eagles</h2>
+            </a>
+          </li>
+          <li class="header__left-item">
+            <a class="header__left-link" href="#">
+              <img class="header__left-img" src="./img/zoos-gorillas.png" alt="zoos-gorillas">
+              <h2 class="header__left-title">Gorillas</h2>
+            </a>
+          </li>
+          <li class="header__left-item">
+            <a class="header__left-link" href="#">
+              <img class="header__left-img" src="./img/zoos-aligators.png" alt="zoos-aligators">
+              <h2 class="header__left-title">Aligators</h2>
+            </a>
           </li>
         </ul>
       </div>
@@ -137,48 +164,68 @@
   </header>
 
   <main>
-    <section class="error">
+    <div class="panda-zoos">
       <div class="container">
-        <h2 class="error__title">404</h2>
-        <p class="error__desc">Oops, the page you are looking for doesn’t exist.</p>
-        <div class="error__wrapper">
-          <a class="error__backhome" href="./index.html">Back Home</a>
-        </div>
-      </div>
-    </section>
-    <div class="error-bg"></div>
-  </main>
+        <div class="conatiner-zoos">
+          <h2 class="panda-zoos__title">The Giant Pandas</h2>
+          <div class="panda-zoos__main-cameras">
+            <h3 class="panda-zoos__title-mini">Main Cameras</h3>
+            <iframe class="panda-zoos__ytb" width="1324" height="624" src="https://www.youtube.com/embed/yYp_Shk7XcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          </div>
+          <div class="panda-zoos__side-cameras">
+            <h3 class="panda-zoos__title-mini">Side Cameras</h3>
+            <ul class="panda-zoos__list">
+              <li class="panda-zoos__item">
+                <iframe class="panda-zoos__side-ytb" width="380" height="240" src="https://www.youtube.com/embed/D7xWXk5T3-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </li>
+              <li class="panda-zoos__item">
+                <iframe class="panda-zoos__side-ytb" width="380" height="240" src="https://www.youtube.com/embed/D7xWXk5T3-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </li>
+              <li class="panda-zoos__item">
+                <iframe class="panda-zoos__side-ytb" width="380" height="240" src="https://www.youtube.com/embed/D7xWXk5T3-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+              </li>
+            </ul>
+            <div class="panda-zoos__arrow">
+              <button class="panda-zoos__arrow-btn" type="button">
+                <img src="./img/arrow-right.svg" alt="arrow-right">
+              </button>
+              <button class="panda-zoos__arrow-btn panda-zoos__arrow-btn-left" type="button">
+                <img src="./img/arrow-left.svg" alt="arrow-left">
+              </button>
+            </div>
+          </div>
 
-  <footer>
-    <div class="footer footer-error">
-      <div class="footer__container container">
-        <img class="footer__logo" src="./img/logo-zoo.svg" alt="logo-zoo">
-        <ul class="header__list">
-          <li class="header__item">
-            <button class="header__item-btn" type="button">about</button>
-          </li>
-          <li class="header__item">
-            <button class="header__item-btn" type="button">MAP</button>
-          </li>
-          <li class="header__item">
-            <button class="header__item-btn" type="button">Zoos</button>
-          </li>
-          <li class="header__item">
-            <button class="header__item-btn header__item-btn-contact-us" type="button">contact us</button>
-          </li>
-          <li class="header__item">
-            <button class="header__item-btn" type="button">design</button>
-          </li>
-        </ul>
-        <div class="footer__wrapper">
-          <p class="footer__design footer__design-by">Design by Lemeshko Kateryna</p>
-          <p class="footer__design">©RSSchool and ©Yem Digital 2021</p>
+          <div class="panda-zoos__information">
+            <ul class="panda-zoos__information-list">
+              <li class="panda-zoos__information-item">
+                <h2 class="panda-zoos__information-title">Information</h2>
+                <p class="panda-zoos_information-title-mini">Zoo</p>
+                <p class="panda-zoos_information-desc">Shenshuping Gengda Panda Center</p>
+                <p class="panda-zoos_information-title-mini">Type of aviary</p>
+                <p class="panda-zoos_information-desc">Imitation of the natural environment</p>
+                <p class="panda-zoos_information-title-mini">Habitat</p>
+                <p class="panda-zoos_information-desc">Mountains of southwest China</p>
+                <p class="panda-zoos_information-title-mini">Type of food</p>
+                <p class="panda-zoos_information-desc">Bamboo</p>
+                <p class="panda-zoos_information-title-mini">Population in the world</p>
+                <p class="panda-zoos_information-desc">600</p>
+                <p class="panda-zoos_information-title-mini">About species</p>
+                <p class="panda-zoos_information-desc">The yards at Shenshuping Gengda Panda Center in China's Wolong Valley are filled with bamboo--making for some very happy panda residents.</p>
+              </li>
+
+              <li class="panda-zoos__information-item">
+                <h2 class="panda-zoos__information-title">Interesting Facts</h2>
+                <p class="panda-zoos__right-desc">The Giant Pandas are omnivores. But whilst pandas will occasionally eat small animals and fish, bamboo counts for 99 percent of their diet.</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
+  </main>
 
-  <script src="./js/main.js"></script>
+  <footer></footer>
+
 </body>
 
 </html>

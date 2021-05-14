@@ -21,26 +21,47 @@
   position: relative;
 }
 
-.map__maps::after {
-  content: '';
-  position: absolute;
-  width: 32.52px;
-  height: 32.52px;
-  background: rgba(255, 255, 255, 0.4) url(../../img/-.svg) no-repeat center;
+// .map__maps::after {
+//   content: '';
+//   position: absolute;
+//   width: 32.52px;
+//   height: 32.52px;
+//   background: rgba(255, 255, 255, 0.4) url(../../img/-.svg) no-repeat center;
+//   border: 1.5px solid #fff;
+//   border-radius: 50%;
+//   top: 873.27px;
+//   left: 1450.96px;
+// }
+
+// .map__maps::before {
+//   content: '';
+//   position: absolute;
+//   width: 32.52px;
+//   height: 32.52px;
+//   background: rgba(255, 255, 255, 0.4) url(../../img/+.svg) no-repeat center;
+//   border: 1.5px solid #fff;
+//   border-radius: 50%;
+//   top: 873.27px;
+//   left: 1400px;
+// }
+
+.map__button{
   border: 1.5px solid #fff;
   border-radius: 50%;
-  top: 873.27px;
-  left: 1450.96px;
+  width: 32.52px;
+  height: 32.52px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.4);
 }
 
-.map__maps::before {
-  content: '';
-  position: absolute;
-  width: 32.52px;
-  height: 32.52px;
-  background: rgba(255, 255, 255, 0.4) url(../../img/+.svg) no-repeat center;
-  border: 1.5px solid #fff;
-  border-radius: 50%;
+.map--button{
+  left: 45px;
+}
+
+.map__wrapper{
+  position: relative;
   top: 873.27px;
   left: 1400px;
 }
@@ -54,19 +75,35 @@
 .map__eagle {
   left: 169.31px;
   top: 364.27px;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 
 .map_aligator {
   left: 325.31px;
   top: 434.27px;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 
 .map_gorillas {
   top: 534.27px;
   left: 686.31px;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 }
 
 .map_panda {
   left: 1032.31px;
   top: 399.27px;
+
+  &:hover{
+    transform: scale(1.1);
+  }
 }

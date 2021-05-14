@@ -1,0 +1,129 @@
+.panda-zoos{
+  margin-top: 50px;
+}
+
+.panda-zoos__title{
+  margin: 0;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  color: $black;
+  margin-bottom: 42px;
+}
+
+.panda-zoos__title-mini{
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: $black;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.panda-zoos__ytb{
+  border-radius: 19.5469px;
+}
+
+.panda-zoos__main-cameras{
+  margin-bottom: 56px;
+}
+
+.panda-zoos__list{
+  @include reset-list;
+  display: flex;
+}
+
+.panda-zoos__side-cameras{
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.panda-zoos__item{
+  margin-right: 32px;
+}
+
+.panda-zoos__item:last-child{
+  margin-right: 0;
+}
+
+.panda-zoos__side-ytb{
+  border-radius: 7.4583px;
+}
+
+.panda-zoos__arrow{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+}
+
+.panda-zoos__arrow-btn{
+  display: block;
+  align-items: center;
+  margin-bottom: 31px;
+  border: none;
+  background-color: transparent;
+}
+
+.panda-zoos__arrow-btn-left{
+  margin-bottom: 0;
+}
+
+.panda-zoos__information-list{
+  display: flex;
+  width: 100%;
+  @include reset-list;
+}
+
+.panda-zoos__information-item{
+  width: 50%;
+}
+
+.panda-zoos__information-title{
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.44px;
+  text-transform: uppercase;
+  color: $black;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.panda-zoos_information-title-mini{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: $black;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.panda-zoos_information-desc{
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: $black;
+  margin: 0;
+  margin-bottom: 36px;
+}
+
+.panda-zoos__right-desc{
+  margin: 0;
+  padding-left: 23px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: $black;
+  margin-bottom: 36px;
+}
+
+.panda-zoos__right-desc::before{
+  content: "";
+  position: absolute;
+  background: url(../../img/zoos-dont-know.svg) no-repeat;
+}
