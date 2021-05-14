@@ -112,6 +112,7 @@
 }
 
 .panda-zoos__right-desc{
+  position: relative;
   margin: 0;
   padding-left: 23px;
   font-family: "Roboto";
@@ -126,4 +127,7 @@
   content: "";
   position: absolute;
   background: url(../../img/zoos-dont-know.svg) no-repeat;
+  width: 12.36px;
+  height: 15.98px;
+  left: 0;
 }
