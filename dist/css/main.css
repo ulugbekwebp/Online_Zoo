@@ -151,8 +151,7 @@ img {
   margin-right: 53px; }
 
 .header__search-icon {
-  margin-left: auto;
-  margin-right: 40px; }
+  cursor: pointer; }
 
 .header__authorization-list {
   text-transform: uppercase;
@@ -397,6 +396,24 @@ img {
 .header__left-img {
   margin-top: 53px;
   margin-bottom: 8.67px; }
+
+.header__input-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: 40px; }
+
+.header__input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 32px;
+  right: 40px;
+  background-color: transparent;
+  border: none;
+  font-size: 18px; }
+  .header__input:focus {
+    outline: none;
+    border-bottom: 1.5px solid #fff; }
 
 .hero {
   position: relative;
@@ -1176,7 +1193,8 @@ img {
   padding-top: 515px; }
 
 .panda-zoos {
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-color: #fff; }
 
 .panda-zoos__title {
   margin: 0;
