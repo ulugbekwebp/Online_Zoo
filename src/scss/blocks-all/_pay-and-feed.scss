@@ -44,6 +44,7 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  justify-content: center;
 }
 
 .pay-and-feed__item {
@@ -86,6 +87,7 @@
   content: '';
   position: absolute;
   background: url(../../img/Arrows.svg) no-repeat;
+  background-size: cover;
   width: 797px;
   height: 52px;
   left: 50%;
@@ -184,4 +186,19 @@
   padding-top: 18px;
   padding-bottom: 18px;
 
+}
+
+
+@media screen and(max-width: $desctop) {
+  .pay-and-feed__list::after{
+  // width: 595px;
+  }
+
+  .pay-and-feed__item{
+    width: 367px;
+  }
+
+  .pay-and-feed__list::after {
+    display: none;
+  }
 }

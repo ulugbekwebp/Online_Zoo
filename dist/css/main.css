@@ -182,6 +182,20 @@ img {
   padding: 15px 14px;
   margin-right: 0; }
 
+.header__authorization-user {
+  display: none;
+  width: 56px;
+  height: 56px;
+  background-color: #B9D5D9;
+  border: none;
+  border-radius: 50%; }
+  .header__authorization-user::after {
+    content: "";
+    background: url(../../img/icon-user.svg) no-repeat center center;
+    display: inline-block;
+    width: 24px;
+    height: 24px; }
+
 .modal__contact-us {
   display: none;
   position: absolute;
@@ -415,6 +429,12 @@ img {
     outline: none;
     border-bottom: 1.5px solid #fff; }
 
+@media screen and (max-width: 1510px) {
+  .header__authorization-list {
+    display: none; }
+  .header__authorization-user {
+    display: block; } }
+
 .hero {
   position: relative;
   padding-top: 48px;
@@ -516,6 +536,26 @@ img {
 .hero__img-active {
   display: none; }
 
+@media screen and (max-width: 1510px) {
+  .hero {
+    background-position: calc(50% + 210px) calc(50% - 30px);
+    padding-bottom: 200px; }
+  .hero__video-btn {
+    width: 559.65px;
+    height: 463.63px; } }
+
+@media screen and (max-width: 1169px) {
+  .hero__title {
+    font-size: 36px;
+    line-height: 43px;
+    width: 324px; }
+  .hero__title-span {
+    font-size: 36px;
+    line-height: 42.66px;
+    display: block; }
+  .hero__desc {
+    width: auto; } }
+
 .how-it-works {
   position: relative; }
 
@@ -536,7 +576,8 @@ img {
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .how-it-works__item {
   width: 480px;
@@ -579,10 +620,20 @@ img {
 .how-it-works__item-03::before {
   background: url(../../img/animals.svg) no-repeat center center, #fff; }
 
+@media screen and (max-width: 1510px) {
+  .how-it-works-wrapper {
+    margin-top: 0; }
+  .how-it-works__item {
+    width: 365px; } }
+
 .panda {
   background: url(../img/bg-panda.svg) no-repeat;
   background-position: center;
   padding-top: 523px; }
+
+@media screen and (max-width: 1510px) {
+  .panda {
+    background-position: -30px; } }
 
 .pet-in-zoo {
   margin-top: 70px;
@@ -716,6 +767,21 @@ img {
   height: 221px;
   margin-bottom: 32px; }
 
+@media screen and (max-width: 1510px) {
+  .pet-in-zoo__list {
+    justify-content: center;
+    max-width: 1466px; }
+  .pet-in-zoo__item-link {
+    width: 351.53px; }
+  .pet-in-zoo__arrow {
+    right: 40px; }
+  .pet-in-zoo__list::after {
+    right: 40px; }
+  .pet-in-zoo__item-title {
+    font-size: 16.51px; }
+  .pet-in-zoo__country {
+    font-size: 12.84px; } }
+
 .pay-and-feed {
   background: url(../../img/pay-and-feed.svg) no-repeat center center;
   padding-top: 90px;
@@ -759,7 +825,8 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  position: relative; }
+  position: relative;
+  justify-content: center; }
 
 .pay-and-feed__item {
   width: 480px;
@@ -797,6 +864,7 @@ img {
   content: '';
   position: absolute;
   background: url(../../img/Arrows.svg) no-repeat;
+  background-size: cover;
   width: 797px;
   height: 52px;
   left: 50%;
@@ -881,6 +949,12 @@ img {
   padding-top: 18px;
   padding-bottom: 18px; }
 
+@media screen and (max-width: 1510px) {
+  .pay-and-feed__item {
+    width: 367px; }
+  .pay-and-feed__list::after {
+    display: none; } }
+
 .testimonials {
   margin-bottom: 100px; }
 
@@ -920,7 +994,8 @@ img {
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .testimonials__item {
   width: 480px;
@@ -989,6 +1064,10 @@ img {
   line-height: 18.75px;
   color: #000; }
 
+@media screen and (max-width: 1510px) {
+  .testimonials__item {
+    width: 367px; } }
+
 .look-at-animals__title {
   font-family: "Rubik";
   font-weight: 400;
@@ -1006,7 +1085,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 101.7px;
-  position: relative; }
+  position: relative;
+  justify-content: center; }
 
 .look-at-animals__item-link {
   display: flex;
@@ -1033,6 +1113,10 @@ img {
 .look-at-animals__img {
   margin-bottom: 8.37px;
   justify-content: center; }
+
+@media screen and (max-width: 1510px) {
+  .look-at-animals__item {
+    margin-right: 80px; } }
 
 .footer {
   background-color: #196469;

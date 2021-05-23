@@ -4,3 +4,9 @@
   padding-top: 523px;
   // margin-left: 21px;
 }
+
+@media screen and(max-width: $desctop) {
+  .panda{
+    background-position: -30px;
+  }
+}

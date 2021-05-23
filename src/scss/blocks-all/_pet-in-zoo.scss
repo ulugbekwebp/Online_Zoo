@@ -147,3 +147,31 @@
   height: 221px;
   margin-bottom: 32px;
 }
+
+
+@media screen and(max-width: $desctop) {
+  .pet-in-zoo__list{
+    justify-content: center;
+    max-width: 1466px;
+  }
+  
+  .pet-in-zoo__item-link{
+    width: 351.53px;
+  }
+
+  .pet-in-zoo__arrow{
+    right: 40px;
+  }
+
+  .pet-in-zoo__list::after{
+    right: 40px;
+  }
+
+  .pet-in-zoo__item-title{
+    font-size: 16.51px;
+  }
+
+  .pet-in-zoo__country{
+    font-size: 12.84px;
+  }
+}

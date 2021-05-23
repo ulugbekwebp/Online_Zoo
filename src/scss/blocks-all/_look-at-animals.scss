@@ -19,6 +19,7 @@
   flex-wrap: wrap;
   margin-bottom: 101.7px;
   position: relative;
+  justify-content: center;
 }
 
 .look-at-animals__item-link{
@@ -50,4 +51,11 @@
 .look-at-animals__img{
   margin-bottom: 8.37px;
   justify-content: center;
+}
+
+
+@media screen and(max-width: $desctop) {
+  .look-at-animals__item{
+    margin-right: 80px;
+  }
 }

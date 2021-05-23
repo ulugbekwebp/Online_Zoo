@@ -144,3 +144,39 @@
 .hero__img-active{
   display: none;
 }
+
+
+@media screen and(max-width: $desctop) {
+  .hero{
+    background-position: calc(50% + 210px) calc(50% - 30px);
+    padding-bottom: 200px;
+  }
+
+  .hero__video-btn{
+    width: 559.65px;
+    height: 463.63px;
+  }
+}
+
+
+@media screen and(max-width: $tablet) {
+  .hero__title{
+    font-size: 36px;
+    line-height: 43px;
+    width: 324px;
+  }
+
+  .hero__title-span{
+    font-size: 36px;
+    line-height: 42.66px;
+    display: block;
+  }
+
+  .hero__desc{
+    width: auto;
+  }
+
+  .hero__video-btn{
+    // background-size: cover;
+  }
+}

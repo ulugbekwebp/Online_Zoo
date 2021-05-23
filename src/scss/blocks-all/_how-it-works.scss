@@ -20,6 +20,7 @@
   @include reset-list;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .how-it-works__item {
@@ -68,4 +69,19 @@
 
 .how-it-works__item-03::before {
   background: url(../../img/animals.svg) no-repeat center center, #fff;
+}
+
+
+@media screen and(max-width: $desctop) {
+  .how-it-works{
+
+  } 
+  
+  .how-it-works-wrapper{
+    margin-top: 0;
+  }
+
+  .how-it-works__item{
+    width: 365px;
+  }
 }

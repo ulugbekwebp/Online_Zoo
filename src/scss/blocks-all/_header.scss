@@ -73,6 +73,25 @@
   margin-right: 0;
 }
 
+.header__authorization-user{
+  display: none;
+  width: 56px;
+  height: 56px;
+  background-color: #B9D5D9;
+  border: none;
+  border-radius: 50%;
+
+  &::after{
+    content: "";
+    background: url(../../img/icon-user.svg) no-repeat center center;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+
+
 .modal__contact-us {
   display: none;
   position: absolute;
@@ -336,5 +355,15 @@
   &:focus{
     outline: none;
     border-bottom: 1.5px solid #fff;
+  }
+}
+
+@media screen and (max-width: $desctop) {
+  .header__authorization-list{
+    display: none;
+  }
+
+  .header__authorization-user{
+    display: block;
   }
 }
